@@ -1,0 +1,117 @@
+{
+  "uuid": "66a45ceb-e76c-4218-a1ff-8d1eb782e56f",
+  "historyId": "ef5d4642164f6566c612c66ade5b92b5",
+  "testCaseId": "0388e55caa0dc0ea9d745417f78e6b3f",
+  "fullName": "ReqnrollSampleProject/Features/Calculator/Add two numbers",
+  "labels": [
+    {
+      "name": "host",
+      "value": "EN411200"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.Calculator"
+    },
+    {
+      "name": "feature",
+      "value": "Calculator"
+    },
+    {
+      "name": "tag",
+      "value": "mytag"
+    }
+  ],
+  "links": [],
+  "name": "Add two numbers",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given the first number is 50",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1730449948283,
+      "stop": 1730449948309
+    },
+    {
+      "name": "Given the second number is 70",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1730449948311,
+      "stop": 1730449948312
+    },
+    {
+      "name": "When the two numbers are added",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1730449948313,
+      "stop": 1730449948314
+    },
+    {
+      "name": "Then the result should be 120",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "120",
+          "status": "passed",
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1730449948469,
+          "stop": 1730449948470
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1730449948315,
+      "stop": 1730449948470
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1730449948279,
+  "stop": 1730449948476
+}

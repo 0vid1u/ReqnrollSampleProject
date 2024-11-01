@@ -1,0 +1,44 @@
+{
+  "uuid": "3db0a57e-ed91-4b0a-84c7-4882980cb5ea",
+  "children": [
+    "8c2444ec-b40c-40a7-9a9d-92ab9fc61147"
+  ],
+  "befores": [
+    {
+      "name": "Hooks.BeforeScenario()",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1730462521891,
+      "stop": 1730462521944
+    },
+    {
+      "name": "Invalid BeforeScenario hook",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "The requested service 'ReqnrollSampleProject.Steps.Hooks' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.",
+        "trace": "Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'ReqnrollSampleProject.Steps.Hooks' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.\r\n   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)\r\n   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)\r\n   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)\r\n   at Reqnroll.Autofac.AutofacTestObjectResolver.ResolveBindingInstance(Type bindingType, IObjectContainer container)\r\n   at lambda_method65(Closure, IContextManager)\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.InvokeHookAsync(IAsyncBindingInvoker invoker, IHookBinding hookBinding, HookType hookType)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.FireEventsAsync(HookType hookType)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1730462521946,
+      "stop": 1730462522038
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1730462521882,
+  "stop": 1730462522103
+}
