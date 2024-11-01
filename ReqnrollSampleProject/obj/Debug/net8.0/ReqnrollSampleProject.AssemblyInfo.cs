@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReqnrollSampleProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cba99efea190c0f695018b776f9f19eb37403432")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReqnrollSampleProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReqnrollSampleProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

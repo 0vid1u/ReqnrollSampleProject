@@ -1,11 +1,13 @@
 ﻿using Reqnroll;
 using Reqnroll.Tracing;
 using Reqnroll.Tracing.AnsiColor;
+using ReqnrollSampleProject.Settings;
+using Microsoft.Extensions.Options;
 
 namespace ReqnrollSampleProject.Steps;
 
 [Binding]
-public class Hooks
+public class Hooks(IOptions<AppSettings> appSettings)
 {
     [BeforeTestRun]
     public static void BeforeTestRun(IColorOutputTheme colorOutputTheme)
@@ -19,6 +21,6 @@ public class Hooks
     [BeforeScenario]
     public void BeforeScenario()
     {
-        
+        Console.WriteLine($"Base url: {appSettings.Value.BaseUrl}");
     }
 }
