@@ -1,5 +1,5 @@
 ﻿#### How to run
 
 ```shell
-dotnet test --settings ./.runsettings
+dotnet test --settings .runsettings
 ```
