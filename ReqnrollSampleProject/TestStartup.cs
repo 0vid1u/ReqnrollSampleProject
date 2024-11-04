@@ -31,7 +31,7 @@ public static class TestStartup
         var environment = System.Environment.GetEnvironmentVariable(Environment) ?? "default";
 
         var configuration = new ConfigurationBuilder()
-            .AddJsonFile($"Settings/appsettings.{environment}.json", false, true)
+            .AddJsonFile($"Settings/AppSettings.{environment}.json", false, true)
             .Build();
 
         builder.RegisterInstance(configuration)
